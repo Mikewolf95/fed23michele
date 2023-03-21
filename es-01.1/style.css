@@ -2,25 +2,39 @@ body {background-color: bisque;
 }
 
 .wrapper {
-    margin: 10px;
-    padding: 30px;
-    border: 1px solid red;
-    border-right: 5px dotted red;
-    position: relative;
-    width: 60%;
+    margin: 1px;
+    border: 1px solid blue;
+    position: absolute;
+    width: 50%;
+    padding left: auto;
 }
 
 .flag{
-    margin: 10px;
-    padding: 30px;
-    border: 1px solid blue;
-    border-right: 5px dotted blue;
-    background-color: blue;
-}
-
-.wrapper01 .flag01{
-    position: absolute;
-    left: 50%;
     height: 400px;
+    width: 25%;
+    background-color: green;
+    float: left;
 }
 
+.flag01{
+    height: 400px;
+    width: 25%;
+    background-color: white;
+    float: left;
+}
+
+.flag02{
+    height: 400px;
+    width: 25%;
+    background-color: darkorange;
+    float: left; 
+    
+}
+
+rainbow-flag {
+  width: 200px;
+  height: 120px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+
+   
